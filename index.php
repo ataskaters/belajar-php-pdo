@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Clean Blog</title>
+    <title>Clean Blog Sangar</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,6 +26,9 @@
 
 <body>
 
+    <?php
+      include_once 'connectDB.php';
+    ?>
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container-fluid">
@@ -35,20 +38,20 @@
                     <span class="sr-only">Toggle navigation</span>
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+                <a class="navbar-brand" href="index.html">Belajar PHP My Admin</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.html">Rumah</a>
                     </li>
                     <li>
-                        <a href="">About</a>
+                        <a href="">Tentang Saya</a>
                     </li>
                     <li>
-                        <a href="">Sample Post</a>
+                        <a href="">Contoh Post</a>
                     </li>
                     <li>
                         <a href="">Contact</a>
